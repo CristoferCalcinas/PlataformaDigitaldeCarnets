@@ -1,4 +1,10 @@
 
+
+export const metadata = {
+    title: 'Login | Plataforma Digital de CI',
+    description: 'Iniciar sesión en tu cuenta con el numero CI y contraseña',
+};
+
 export default function AuthLayout({
     children
 }: {
