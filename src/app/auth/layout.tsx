@@ -5,9 +5,8 @@ export default function AuthLayout({
     children: React.ReactNode;
 }) {
     return (
-        <div>
-            <h1>Hello Root Layout Auth</h1>
+        <main className="min-h-screen flex items-center justify-center md:h-screen">
             {children}
-        </div>
+        </main>
     );
 }   
